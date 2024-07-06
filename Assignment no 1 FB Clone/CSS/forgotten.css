@@ -1,0 +1,141 @@
+/* Forgotten password? */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forgetnav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    height: 60px;
+}
+
+.forgetnav a {
+    text-decoration: none;
+    color: #6f7fdb;
+}
+
+.forgetnav a:hover {
+    text-decoration: underline #0039f6;
+}
+
+.forgetnav input {
+    border: 0;
+    box-shadow: 0 0 1px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    width: 188px;
+    height: 40px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.forgetnav button {
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    width: 70px;
+    height: 40px;
+    font-weight: 600;
+    background-color: #166fe5;
+    color: white;
+    margin-right: 10px;
+}
+
+.forgetnav button a{
+    color: white;
+}
+
+/* main */
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forgetform {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    margin-top: 80px;
+    width: 500px;
+    background-color: white;
+    padding: 16px;
+}
+
+.forgetform h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.forgetform p {
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgetform input {
+    width: 456px;
+    padding: 16px 0 16px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    box-shadow: 0 0 1px;
+    margin-bottom: 16px;
+}
+
+.forgetform span {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.forgetform button {
+    width: 100px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 10px;
+    line-height: 40px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+
+.forgetform .button1 {
+    background-color: #e5e5e5;
+    color: #685156;
+    font-weight: 100;
+}

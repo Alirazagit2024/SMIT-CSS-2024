@@ -1,0 +1,221 @@
+/* home */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #1c2b33;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.left-header img:hover {
+  transform: scale(1.06);
+}
+
+.search-header {
+  width: 60%;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search-header img {
+  padding-right: 8px;
+}
+
+.search-header input {
+  padding-left: 12px;
+  margin-right: 10px;
+  width: 76%;
+  height: 40px;
+  border: 0;
+  box-shadow: 0 0 1px;
+  border-radius: 20px;
+}
+
+.search-header button {
+  width: 13%;
+  height: 40px;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 0 1px;
+
+}
+
+.right-header ul li {
+  font-size: 1.2rem;
+  display: inline-block;
+  list-style: none;
+}
+
+.right-header ul li a {
+  text-decoration: none;
+  color: #1c2b33;
+  padding-right: 10px;
+}
+
+.right-header ul li a:hover {
+  text-decoration: underline #0039f6;
+  font-size: large;
+}
+
+/* Main */
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-section {
+  display: flex;
+  background-color: #1977f3;
+  align-items: end;
+  width: 1080px;
+  height: 400px;
+
+}
+
+.bg-section img {
+  width: 150px;
+  height: 130px;
+  margin-left: 20%;
+  margin-bottom: 10%;
+
+}
+
+
+
+.profile-section {
+  display: flex;
+}
+
+.profile-section img {
+  margin-top: -22%;
+  margin-left: 45.2%;
+  width: 600px;
+  height: 340px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 60px;
+}
+
+
+.left1-section,
+.right1-section {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left1-section img {
+  width: 110%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.right1-section {
+  width: 25%;
+  display: block;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.right1-section h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.right1-section p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.right1-section button {
+  border-radius: 50%;
+  width: 35px;
+  padding: 6px;
+  background-color: white;
+  margin-right: 4px;
+}
+
+.right1-section a {
+  text-decoration: none;
+  color: black;
+  cursor: progress;
+
+}
+
+.right1-section b {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+
+/* footer */
+
+.footer-nav {
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.icons ul li {
+  font-size: 1.2rem;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.icons ul li a {
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+
+.footer-nav ul li {
+  font-size: 1.2rem;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+}
+
+.footer-nav ul li a:hover {
+  text-decoration: underline #0039f6;
+  font-size: large;
+}
