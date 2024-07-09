@@ -140,15 +140,16 @@ padding-top: 5px;
 margin-left: 60px;
 margin-top: 50px;
 margin-bottom: 20px;
+padding-left: 5px;
 /* background-color: #da7320; */
 overflow-x: hidden;
 overflow-y: hidden;
 
 }
 
-.section2:hover {
+/* .section2:hover {
 overflow-x: scroll;
-}
+} */
 
 .section2 .pics {
     display: flex;
