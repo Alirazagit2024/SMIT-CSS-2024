@@ -1,0 +1,233 @@
+/* laptop screen */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 750px;
+  }
+  .blur-box {
+    height: 750px;
+  }
+  .col-2-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section {
+    overflow: hidden;
+  }
+  .center-nav ul {
+    display: flex;
+    gap: 6px;
+  }
+  .right-nav button {
+    font-size: 0.8rem;
+    height: 50px;
+    width: 120px;
+  }
+  .owl-carousel-owl-theme {
+    width: 100%;
+  }
+  .about-col-1 {
+    flex-direction: column;
+    margin-top: 240px;
+  }
+
+  .left-img-container img {
+    height: 400px;
+    object-fit: fill;
+  }
+  .icon-circle {
+    width: 160px;
+    height: 160px;
+  }
+
+  .icon-circle img {
+    width: 100%;
+  }
+}
+
+/* tablet screen */
+
+@media only screen and (min-width: 424px) and (max-width: 768px) {
+  header {
+    height: 750px;
+  }
+  .blur-box {
+    height: 750px;
+  }
+  .left-nav a {
+    width: 100%;
+  }
+  .left-nav h1 {
+    display: none;
+  }
+  .right-nav button {
+    font-size: 0.8rem;
+    height: 50px;
+    width: 100px;
+  }
+  .image-box {
+    width: 94%;
+  }
+  .col-2-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section {
+    overflow: hidden;
+  }
+  .owl-carousel-owl-theme {
+    width: 100%;
+  }
+  .about-col-1 {
+    flex-direction: column;
+    margin-top: 240px;
+  }
+  .container5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .owl-carousel-owl-theme {
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+  .item {
+    width: 330px;
+  }
+  .left-img-container img {
+    height: 400px;
+    object-fit: fill;
+  }
+  .icon-circle {
+    width: 160px;
+    height: 160px;
+  }
+
+  .icon-circle img {
+    width: 100%;
+  }
+  .contact-icons ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* mobile screen */
+
+@media only screen and (min-width: 300px) and (max-width: 426px) {
+  header {
+    height: 580px;
+  }
+  .blur-box {
+    height: 580px;
+  }
+  .nav {
+    padding-left: calc(-10px);
+    padding-right: calc(-10px);
+  }
+  .left-nav a {
+    width: 100%;
+  }
+  .left-nav h1 {
+    display: none;
+  }
+  .left-nav h2 {
+    display: block;
+    font-size: 2.2rem;
+  }
+  .center-nav ul {
+    display: none;
+  }
+  .right-nav button {
+    font-size: 0.8rem;
+    height: 50px;
+    width: 100px;
+  }
+  .image-box {
+    width: 90%;
+    height: auto;
+  }
+  .col-3 p {
+    font-size: 1.6rem;
+  }
+  #staff {
+    font-size: 2.2rem;
+  }
+  .col-2-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section {
+    overflow: hidden;
+  }
+  .container5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .owl-carousel-owl-theme {
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+  .about-col-1 {
+    flex-direction: column;
+    margin-top: 180px;
+  }
+  .owl-carousel-owl-theme {
+    padding: 0;
+  }
+  .left-img-container img {
+    height: auto;
+    object-fit: fill;
+  }
+  .carousel-col-2 p {
+    font-size: 2.7rem;
+  }
+  .job-category-title {
+    font-size: 2.4rem;
+  }
+  .job-listing-col-2 {
+    font-size: 2.6rem;
+  }
+  .job-detail {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .job-detail-row-1 button {
+    width: 80px;
+    height: 40px;
+  }
+  #apply {
+    width: 80px;
+    height: 40px;
+  }
+  .icon-circle {
+    width: 160px;
+    height: 160px;
+  }
+
+  .icon-circle img {
+    width: 100%;
+  }
+  .contact-icons ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-icons ul li {
+    flex-direction: column;
+  }
+}
