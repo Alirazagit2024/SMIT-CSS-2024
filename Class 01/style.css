@@ -1,0 +1,15 @@
+h1 {
+    background-color: bisque;
+ color: blue;  
+ text-align: center; 
+}
+
+h2 {
+    color: red;
+    background-color: blue;
+}
+
+p {
+    color: green;
+    background-color: yellow;
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 40px;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+#red {
+    color: red;
+}
+
+#red:visited {
+    color: blue;
+}
+
+#red:hover {
+    color: red;
+    font-size: 50px;
+    cursor: no-drop;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#yellow:visited {
+    color: blue;
+}
+
+#yellow:hover {
+    color: yellow;
+    font-size: 50px;
+    cursor: crosshair;
+}
+
+#green {
+    color: green;
+}
+
+#green:visited {
+    color: blue;
+}
+
+#green:hover {
+    color: green;
+    font-size: 50px;
+    cursor: grab;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input input {
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.input input:focus {
+    border: 2px solid green;
+}
