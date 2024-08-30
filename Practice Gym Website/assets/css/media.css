@@ -1,0 +1,100 @@
+/* tablet */
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  nav {
+    padding-block: 0 10px 0 10px;
+  }
+  .right-nav ul li {
+    display: none;
+  }
+  .hamburger-menu i {
+    display: block;
+    font-size: 1.6rem;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  .left-section a button {
+    width: 200px;
+  }
+  .about-box {
+    flex-direction: column;
+  }
+  .right-about button {
+    width: 100%;
+  }
+  .trainer-box {
+    flex-direction: column;
+  }
+  .trainer1 {
+    flex-direction: column;
+  }
+  #trainer2 {
+    flex-direction: column-reverse;
+  }
+  .row button {
+    width: 100%;
+  }
+}
+
+/* mobile */
+
+@media screen and (max-width: 426px) and (min-width: 200px) {
+  nav {
+    padding-block: 0 10px 0 10px;
+  }
+  .logo {
+    width: 80px;
+    height: 100px;
+  }
+  .left-nav a h1 {
+    display: none;
+  }
+  .right-nav ul li {
+    display: none;
+  }
+  .hamburger-menu i {
+    display: block;
+    font-size: 1.6rem;
+  }
+  .container {
+    flex-direction: column-reverse;
+  }
+  .left-section a button {
+    width: 100%;
+  }
+  .about-box {
+    flex-direction: column;
+  }
+  .right-about button {
+    width: 100%;
+  }
+  .trainer-box {
+    flex-direction: column;
+  }
+  .trainer1 {
+    flex-direction: column;
+  }
+  #trainer2 {
+    flex-direction: column-reverse;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .col-75 input {
+    width: 100%;
+  }
+  .col-76 input {
+    width: 100%;
+  }
+  .row button {
+    width: 100%;
+  }
+  .contact-icons {
+    flex-direction: column;
+  }
+}
