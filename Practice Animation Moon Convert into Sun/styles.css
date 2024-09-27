@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container1 {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(assets/images/sky1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.moon {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    box-shadow: 0px 0px 400px 123px rgba(255,255,255,0.75);
+animation-name: moon;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes moon {
+    0% {
+        transform: translate(0px,0px);
+    }
+    100% {
+        transform: translate(60px,300px);
+    }
+}
+
+.sun-box {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+.container2 {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(assets/images/sky2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-color: transparent; */
+    top: 0;
+    z-index: 1;
+    animation-name: sky;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sky {
+    0% {
+        transform: translate(0px,0px);
+    }
+    10% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.1;
+    }
+    20% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.2;
+    }
+    30% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.3;
+    }
+    40% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.5;
+    }
+    60% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.6;
+    }
+    70% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.7;
+    }
+    80% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+        opacity: 0.9;
+    }
+    100% {
+        transform: translate(0px,0px);
+        background-image: url(assets/images/sky2.jpg);
+    }
+}
+
+.s-p {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* padding-top: 10%; */
+    display: flex;
+    justify-content: baseline;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    /* padding-top: 10%; */
+    display: flex;
+    justify-content: baseline;
+    top: 0;
+    z-index: 2;
+}
+
+.bg img {
+    margin-top: 13%;
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    /* background-color: white; */
+}
+
+.sun {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    z-index: 1;
+    box-shadow: 0px 0px 400px 123px rgba(234,255,0,0.75);
+animation-name: sun;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes sun {
+    0% {
+        transform: translate(0px,0px);
+    }
+    100% {
+        transform: translate(-60px,-260px);
+    }
+}

@@ -1,0 +1,124 @@
+/* tablet */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  nav {
+    padding-block: 0 10px 0 10px;
+  }
+  .right-nav ul li {
+    display: none;
+  }
+  .hamburger-menu i {
+    display: block;
+    font-size: 1.6rem;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  .left-section a button {
+    width: 200px;
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 426px) and (min-width: 320px) {
+  nav {
+    padding-block: 0 10px 0 10px;
+  }
+  .logo {
+    width: 100px;
+    height: 110px;
+  }
+  .right-nav ul li {
+    display: none;
+  }
+  .hamburger-menu i {
+    display: block;
+    font-size: 1.6rem;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: block;
+  }
+  .left-section h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+  }
+  .left-section a button {
+    width: 100%;
+  }
+  #btn-1 button {
+    width: 150px;
+    height: 60px;
+  }
+  .right-section {
+    height: 300px;
+  }
+  .search {
+    width: 100%;
+    height: 60px;
+  }
+}
+
+/* small-mobile */
+
+@media only screen and (max-width: 320px) and (min-width: 100px) {
+  nav {
+    padding-block: 0 10px 0 10px;
+  }
+  .logo {
+    width: 100px;
+    height: 110px;
+  }
+  .right-nav ul li {
+    display: none;
+  }
+  .hamburger-menu i {
+    display: block;
+    font-size: 1.6rem;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: block;
+  }
+  .left-section h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+  }
+  .left-section a button {
+    width: 100%;
+  }
+  #btn-1 button {
+    width: 150px;
+    height: 60px;
+  }
+  .right-section {
+    height: 300px;
+  }
+  .search {
+    width: 100%;
+    height: 60px;
+  }
+  .search i {
+    font-size: 20px;
+  }
+  .search-input {
+    padding: 6px;
+  }
+  .search-input::placeholder {
+    font-size: 16px;
+  }
+  .search-button {
+    width: 50px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+}
